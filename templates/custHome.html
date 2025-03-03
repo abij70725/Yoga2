@@ -1,0 +1,103 @@
+{% extends 'basePage.html' %} {% load static %} {% block content %}
+<!--/breadcrumb-bg-->
+<div class="breadcrumb-bg w3l-inner-page-breadcrumb py-5">
+	<div class="container pt-lg-5 pt-md-3 p-lg-4 pb-md-3 my-lg-3">
+		<h2 class="title pt-5">Welcome </h2>
+		<ul class="breadcrumbs-custom-path mt-3 text-center"></ul>
+	</div>
+</div><!-- testimonials section -->
+<section class="w3l-clients w3l-test pb-5" id="testimonials">
+	<div class="midd-w3 py-5">
+		<div class="container py-lg-5 py-md-4 pt-2 pb-lg-5">
+			<div class="title-content text-center">
+				<h6 class="title-subhny text-center">Upload</h6>
+				<h3 class="title-w3l mb-sm-5 mb-4 pb-sm-o pb-2 text-center">
+					Your Pose
+				</h3>
+				<form action="" method="post" class="signin-form" enctype="multipart/form-data">
+					{% csrf_token %}
+					<input type="file" name="file" class="contact-input">
+					<input type="submit" value="Predict" class="btn btn-outline-info btn-md">
+				</form>
+			</div>
+			<br><br>
+			<h1 class="h1 text-center">Test Images</h1>
+			<div id="owl-demo2" class="owl-carousel owl-theme mt-4 py-md-2 mb-md-4">
+				<div class="item">
+					<div class="testimonial-content">
+						<div class="testimonial">
+							<a href="https://images.pexels.com/photos/2121065/pexels-photo-2121065.jpeg?auto=compress&cs=tinysrgb&w=600" target="_blank">
+							<img
+									src="https://images.pexels.com/photos/2121065/pexels-photo-2121065.jpeg?auto=compress&cs=tinysrgb&w=600"
+									class="img-responsive"
+									alt="placeholder image"
+							/>
+						</a>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="testimonial-content">
+						<div class="testimonial">
+							<a href="https://images.pexels.com/photos/68468/pexels-photo-68468.jpeg?auto=compress&cs=tinysrgb&w=600" target="_blank">
+							<img
+									src="https://images.pexels.com/photos/68468/pexels-photo-68468.jpeg?auto=compress&cs=tinysrgb&w=600"
+									class="img-responsive"
+									alt="placeholder image"
+							/>
+						</a>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="testimonial-content">
+						<div class="testimonial">
+							<a href="https://images.pexels.com/photos/3822583/pexels-photo-3822583.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" target="_blank">
+							<img
+									src="https://images.pexels.com/photos/3822583/pexels-photo-3822583.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+									class="img-responsive"
+									alt="placeholder image"
+							/>
+						</a>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- //testimonials section -->
+
+<!--//breadcrumb-bg-->
+<!-- banner bottom shape -->
+<div class="position-relative">
+	<div class="shape overflow-hidden">
+		<svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<path
+				d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z"
+				fill="currentColor"
+			></path>
+		</svg>
+	</div>
+</div>
+<!-- banner bottom shape -->
+<!--/serices-6-->
+<section class="w3l-stats py-lg-0 py-5 mt-5 mb-5" id="stats">
+	<div class="gallery-inner container py-lg-0 py-3">
+		<div class="row stats-con">
+			<div class="col-lg-6 col-12 stats_info counter_grid">
+				<span class="fa fa-users"></span>
+				<p class="counter">1100</p>
+				<h4>Happy Clients</h4>
+			</div>
+			<div class="col-lg-6 col-12 stats_info counter_grid1">
+				<span class="fa fa-shopping-cart"></span>
+				<p class="counter">1000</p>
+				<h4>Services</h4>
+			</div>
+		</div>
+	</div>
+</section>
+<!--//services-6-->
+{% endblock %}

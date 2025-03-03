@@ -1,0 +1,228 @@
+{% extends 'basePage.html' %}{% load static %} {% block content %}
+<!--/breadcrumb-bg-->
+<div class="breadcrumb-bg w3l-inner-page-breadcrumb py-5">
+	<div class="container pt-lg-5 pt-md-3 p-lg-4 pb-md-3 my-lg-3">
+		<h2 class="title pt-5">Diet Chart </h2>
+		<ul class="breadcrumbs-custom-path mt-3 text-center"></ul>
+	</div>
+</div><!-- testimonials section -->
+
+<!-- banner bottom shape -->
+<div class="position-relative mt-5">
+    <img src="static/images/diet_chart.png" alt="" width="100%">
+</div>
+<!-- banner bottom shape -->
+
+<!--/w3l-content-1-->
+
+<!--//w3l-content-1-->
+<!-- /w3l-content-2-->
+<div class="" style="height: 20px"></div>
+<!-- //w3l-content-2-->
+<!-- /w3l-content-4-->
+
+<!-- //w3l-content-4-->
+
+<!-- stats -->
+<section class="w3l-stats py-lg-0 py-5" id="stats">
+	<div class="gallery-inner container py-lg-0 py-3">
+		<div class="row stats-con">
+			<div class="col-lg-6 col-12 stats_info counter_grid">
+				<span class="fa fa-paw"></span>
+				<p class="counter">1100</p>
+				<h4>Happy Customers</h4>
+			</div>
+			<div class="col-lg-6 col-12 stats_info counter_grid1">
+				<span class="fa fa-shopping-cart"></span>
+				<p class="counter">1000</p>
+				<h4>Services</h4>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- //stats -->
+<!--/Blog-Posts-->
+
+<!--//Blog-Posts-->
+<!-- /w3l-content-3-->
+
+<!-- //w3l-content-3-->
+<!-- testimonials section -->
+<section class="w3l-clients w3l-test pb-5" id="testimonials">
+	<div class="midd-w3 py-5">
+		<div class="container py-lg-5 py-md-4 pt-2 pb-lg-5">
+			<div class="title-content text-center">
+				<h6 class="title-subhny text-center">Happy Clients</h6>
+				<h3 class="title-w3l mb-sm-5 mb-4 pb-sm-o pb-2 text-center">
+					What Our Clients Say
+				</h3>
+				<form action="" method="post" class="signin-form" enctype="multipart/form-data">
+					{% csrf_token %}
+					<input type="file" name="file" class="contact-input">
+					<input type="submit" class="contact-input">
+				</form>
+			</div>
+			<div id="owl-demo2" class="owl-carousel owl-theme mt-4 py-md-2 mb-md-4">
+				<div class="item">
+					<div class="testimonial-content">
+						<div class="testimonial">
+							<blockquote>
+								<q>Pellen tesque libero ut justo</q>
+							</blockquote>
+							<p>
+								Lorem ipsum dolor sit amet elit. hic odio tenetur. ante ipsum
+								primis in faucibus orci luctus.Vivamus a ligula quam tesque et
+								libero ut justo, ultrices in.
+							</p>
+						</div>
+						<div class="bottom-info mt-4">
+							<a class="comment-img" href="#url"
+								><img
+									src="{%static '/images/team1.jpg'%}"
+									class="img-responsive"
+									alt="placeholder image"
+							/></a>
+							<div class="people-info align-self">
+								<h3>Johnson william</h3>
+								<p class="identity">Example City</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="testimonial-content">
+						<div class="testimonial">
+							<blockquote>
+								<q>Lorem ipsum dolor sit amet</q>
+							</blockquote>
+							<p>
+								Lorem ipsum dolor sit amet elit. hic odio tenetur. ante ipsum
+								primis in faucibus orci luctus.Vivamus a ligula quam tesque et
+								libero ut justo, ultrices in.
+							</p>
+						</div>
+						<div class="bottom-info mt-4">
+							<a class="comment-img" href="#url"
+								><img
+									src="{%static '/images/team2.jpg'%}"
+									class="img-responsive"
+									alt="placeholder image"
+							/></a>
+							<div class="people-info align-self">
+								<h3>Alexander sakura</h3>
+								<p class="identity">Example City</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="testimonial-content">
+						<div class="testimonial">
+							<blockquote>
+								<q>Pellen tesque libero ut justo</q>
+							</blockquote>
+							<p>
+								Lorem ipsum dolor sit amet elit. hic odio tenetur. ante ipsum
+								primis in faucibus orci luctus.Vivamus a ligula quam tesque et
+								libero ut justo, ultrices in.
+							</p>
+						</div>
+						<div class="bottom-info mt-4">
+							<a class="comment-img" href="#url"
+								><img
+									src="{%static '/images/team3.jpg'%}"
+									class="img-responsive"
+									alt="placeholder image"
+							/></a>
+							<div class="people-info align-self">
+								<h3>John wilson</h3>
+								<p class="identity">Example City</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="testimonial-content">
+						<div class="testimonial">
+							<blockquote>
+								<q>Lorem ipsum dolor sit amet</q>
+							</blockquote>
+							<p>
+								Lorem ipsum dolor sit amet elit. hic odio tenetur. ante ipsum
+								primis in faucibus orci luctus.Vivamus a ligula quam tesque et
+								libero ut justo, ultrices in.
+							</p>
+						</div>
+						<div class="bottom-info mt-4">
+							<a class="comment-img" href="#url"
+								><img
+									src="{%static '/images/team2.jpg'%}"
+									class="img-responsive"
+									alt="placeholder image"
+							/></a>
+							<div class="people-info align-self">
+								<h3>Julia sakura</h3>
+								<p class="identity">Example City</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="testimonial-content">
+						<div class="testimonial">
+							<blockquote>
+								<q>Pellen tesque libero ut justo</q>
+							</blockquote>
+							<p>
+								Lorem ipsum dolor sit amet elit. hic odio tenetur. ante ipsum
+								primis in faucibus orci luctus.Vivamus a ligula quam tesque et
+								libero ut justo, ultrices in.
+							</p>
+						</div>
+						<div class="bottom-info mt-4">
+							<a class="comment-img" href="#url"
+								><img
+									src="{%static '/images/team3.jpg'%}"
+									class="img-responsive"
+									alt="placeholder image"
+							/></a>
+							<div class="people-info align-self">
+								<h3>John wilson</h3>
+								<p class="identity">Example City</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="testimonial-content">
+						<div class="testimonial">
+							<blockquote>
+								<q>Lorem ipsum dolor sit amet.</q>
+							</blockquote>
+							<p>
+								Lorem ipsum dolor sit amet elit. hic odio tenetur. ante ipsum
+								primis in faucibus orci luctus.Vivamus a ligula quam tesque et
+								libero ut justo, ultrices in.
+							</p>
+						</div>
+						<div class="bottom-info mt-4">
+							<a class="comment-img" href="#url"
+								><img
+									src="{%static '/images/team2.jpg'%}"
+									class="img-responsive"
+									alt="placeholder image"
+							/></a>
+							<div class="people-info align-self">
+								<h3>Julia sakura</h3>
+								<p class="identity">Example City</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- //testimonials section -->
+
+{% endblock %}
